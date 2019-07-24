@@ -5,7 +5,7 @@ export { RouteDirection, Metrics, TransitionSpecification } from './Types';
 
 export function createFluidNavigator(
   routeConfigMap: NavigationRouteConfigMap,
-  stackConfig: StackNavigatorConfig = {}
+  stackConfig: StackNavigatorConfig
 ): NavigationContainer;
 
 export { createFluidNavigator as FluidNavigator };
